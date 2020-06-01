@@ -2,10 +2,14 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'application'
+
+mainClassName = "com.aceleradora.biblioteca.Main"
+
 group 'com.aceleradora'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
     mavenCentral()
